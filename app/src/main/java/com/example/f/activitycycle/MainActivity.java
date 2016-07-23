@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
+    public static final String BOOF_NAME_OF_INFO ="name";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,Activitysecond.class);
-                intent.putExtra("name",editText.getText().toString());
+                intent.putExtra(BOOF_NAME_OF_INFO,editText.getText().toString());
                 startActivity(intent);
             }
         });
