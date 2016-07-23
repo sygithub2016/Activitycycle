@@ -14,7 +14,7 @@
         android:id="@+id/activity_main_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="第二个Activity"
+        android:text="主界面上的第二个Activity"
         android:textAllCaps="false"/>
     <EditText
         android:id="@+id/activity_main_EditText_name"
@@ -25,5 +25,5 @@
         android:id="@+id/activity_main_thirdbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="发送"/>
+        android:text="主界面上的第三个Activity"/>
 </LinearLayout>
